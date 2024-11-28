@@ -38,7 +38,7 @@ The HPI consists of 4 indexes or data sets (in FHIR they are represented as reso
 HPI Practitioner – holds identity and registration details for over 170,000 practitioners 
 HPI Organization – holds identity and contact details of over 12,000 organizations providing healthcare
 HPI Facility (Location resource) - holds identity, location and contact details of over 11,000 facilities or places where healthcare is provided. 
-HPI PractitionerRole – holds the relationship details of practitioners to the places where they work and the organizations they work for, and the role they have there.  
+HPI PractitionerRole – holds the relationship details of practitioners to the places where they work and the organizations they work for, and the role they have there. At 28/11/2024 only Te Tai Tokerau Te Whatu Ora practitioner roles are held as FHIR resources
 
  
 <img style="width:500px; float:none" src="resources1.png"/>
