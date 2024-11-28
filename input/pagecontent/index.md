@@ -1,12 +1,12 @@
 
-This is the Implementation Guide for the [HL7® FHIR©](http://hl7.org/fhir) interface to the New Zealand HPI - Health Provider Index. It brings together all the artifacts that are necessary to understand and use the FHIR API.
-It is based on  [FHIR R4](http://hl7.org/fhir/) and NZBase IG 2.0-rc1
+This is the Implementation Guide for the [HL7® FHIR©](http://hl7.org/fhir) interface to the **New Zealand HPI - Health Provider Index**. It brings together all the artifacts that are necessary to understand and use the FHIR API.
+It is based on  [FHIR R4](https://hl7.org/fhir/R4/index.html) and NZBase IG 2.0-rc1
 
-The HPI ([Health Provider Index](https://www.health.govt.nz/our-work/health-identity/health-provider-index)) is a national registry service that holds information about the providers of healthcare in New Zealand, including the organizations where they work and the facilities that they work from.
+The HPI ([Health Provider Index](https://www.tewhatuora.govt.nz/health-services-and-programmes/health-identity/health-provider-index)) is a national registry service that holds information about the providers of healthcare in New Zealand, including the organizations where they work and the facilities that they work from.
 
 The key entities that are supported are:
 
-The Person - described by the FHIR [HPIPractitioner](StructureDefinition-HPIPractitioner.html) resource.
+The Person - described by the FHIR [HPIPractitioner](StructureDefinition-HPIPractitioner.html) resource.****
 
 Facilities where healthcare is provided from. These are represented by [HPILocation](StructureDefinition-HpiLocation.html) resource.
 
@@ -24,7 +24,8 @@ The HPI serves 2 primary purposes:
 
 * **Business view:**  Business context of the HPI
 * **Use Cases:**  Expected Use Cases that the HPI supports
-* **General notes:**  Common notes about how the API and contents are organized
+* **Important Information:**  Onboarding guide, Notes, FAQs and Glossary
+* **Compliance Testing:** Requirements to test that your solution is compliant
 * **API:** The specific API features supported by the HPI.
 * **Profiles:** A list of the profiles that are defined by the guide. 
 * **Extensions:** A list of the extensions defined by the guide, and extensions that are defined elsewhere.
@@ -42,7 +43,7 @@ Note that these identifiers are correct as at the time of publishing the Base IG
 new identifiers are added, they will be present in the [build version](http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html) of NZBase (that has not yet been approved for release)
 
 
-  ### Source
+### Source
 
-  ​	This IG was built from [github](https://github.com/HL7NZ/nhi)  branch:   commit id: 9b09bc4ff144b7036aa8e1f77902879a3150e181
+This IG was built from [github](https://github.com/HL7NZ/hpi)  branch:   commit id: 
 
